@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warner Bros. - Movies</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <style>
+    /* Movies hero banner styles
+Welcome to Warner Bros.
+Explore our world of the latest blockbuster movies!	*/
+    .movies-hero-banner {
+      background-image: url('Images/banner.png');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .movies-hero-banner h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .movies-hero-banner p {
+      font-size: 1.25rem;
+      margin-bottom: 40px;
+    }
+    /* Movie card styles */
+    .movies-list .card {
+      margin-bottom: 30px;
+      border: none;
+      transition: transform 0.3s;
+    }
+    .movies-list .card:hover {
+      transform: translateY(-5px);
+    }
+    .movies-list .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+    .movies-list .card-body {
+      background-color: #f8f9fa;
+    }
+    .movies-list .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .movies-list .card-meta {
+      font-size: 0.9rem;
+      color: #6c757d;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container"> 
+        <a class="navbar-brand" href="#">Warner Bros.</a>
+        <div class="search-form">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Movies.html">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="TVShows.html">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="GamesApps.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Collections.html">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="movies-hero-banner">
+      <div class="container"> 
+        <div class="hero-content">
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="movies-list">
+        <h2>Latest Releases</h2>
+        <div class="row">  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/godzilla-x-kong-poster.jpeg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Godzilla X Kong: The New Empire</h5>
+                <p class="card-text">Godzilla and the almighty Kong face a colossal threat hidden deep within the planet, challenging their very existence and the survival of the human race.</p>
+                <p class="card-meta">Genre: Action, Sci-Fi | Release Date: 2024</p>
+                <a href="godzilla.html" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/MV5BNTk1MTdmYzctNzlkOS00ZTNmLWI4ZTMtMzc3OWFkMDI0MTJkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Challengers</h5>
+                <p class="card-text">Tashi, a tennis player turned coach, has transformed her husband from a mediocre player into a world-famous grand slam champion. To jolt him out of his recent losing streak, she makes him play a challenger event -- close to the lowest level of tournament on the pro tour. Tensions soon run high when he finds himself standing across the net from the once-promising, now burnt-out Patrick, his former best friend and Tashi's former boyfriend.</p>
+                <p class="card-meta">Genre: Sport, Romance | Release Date: 2024</p>
+                <a href="chal.html" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/GFRDgsmbcAASsT1.webp" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Beetlejuice Beetlejuice</h5>
+                <p class="card-text">Three generations of the Deetz family return home to Winter River after an unexpected family tragedy. Still haunted by Beetlejuice, Lydia's life soon gets turned upside down when her rebellious teenage daughter discovers a mysterious portal to the afterlife. When someone says Beetlejuice's name three times, the mischievous demon gleefully returns to unleash his very own brand of mayhem.</p>
+                <p class="card-meta">Genre: Comedy, Horror | Release Date: 2024</p>
+                <a href="godzilla.html" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/teaser-poster-concept-for-twisters-2024-a-warner-bros-co-v0-wxg9cjua4e9c1.jpeg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Twisters</h5>
+                <p class="card-text">Haunted by a devastating encounter with a tornado, Kate Cooper gets lured back to the open plains by her friend, Javi, to test a groundbreaking new tracking system. She soon crosses paths with Tyler Owens, a charming but reckless social-media superstar who thrives on posting his storm-chasing adventures. As storm season intensifies, Kate, Tyler and their competing teams find themselves in a fight for their lives as multiple systems converge over central Oklahoma.</p>
+                <p class="card-meta">Genre: Action, Thriller | Release Date: 2024</p>
+                <a href="" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/FURIOSA-a-mad-max-saga-film-poster-themes.jpg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Furiosa: A Mad Max Saga</h5>
+                <p class="card-text">Snatched from the Green Place of Many Mothers, young Furiosa falls into the hands of a great biker horde led by the warlord Dementus. Sweeping through the Wasteland, they come across the Citadel, presided over by the Immortan Joe. As the two tyrants fight for dominance, Furiosa soon finds herself in a nonstop battle to make her way home.</p>
+                <p class="card-meta">Genre: Action, Adventure | Release Date: 2024</p>
+                <a href="" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Dune Part Two</h5>
+                <p class="card-text">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he must prevent a terrible future only he can foresee.</p>
+                <p class="card-meta">Genre: Adventure, Sci-Fi | Release Date: 2024</p>
+                <a href="" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-social-icons">
+        <p>
+          <a href="http://www.Facebook.com" class="active">Facebook</a>
+          <a href="http://www.Twitter.com" class="active">Twitter</a>
+          <a href="http://www.Instagram.com" class="active">Instagram</a>
+        </p>
+      </div>
+      <p>&copy; 2024 Warner Bros. Entertainment Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
